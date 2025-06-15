@@ -5,8 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        if len(cp) <= k:
-            return sum(cp)
+        
         r = len(cp)
         l = k
         total = sum(cp[:l])
