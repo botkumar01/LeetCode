@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,4 +21,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/botkumar01/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
