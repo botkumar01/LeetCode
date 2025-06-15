@@ -20,7 +20,7 @@ class Solution(object):
                 c.append(i)
         for i in nums:
             if aa>=len(a) or  bb>=len(b) or  cc>=len(c):
-                                break
+                break
             end = max(a[aa],b[bb],c[cc])
             cnt += len(nums)-end
             if i =='a':
