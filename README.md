@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -35,9 +36,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
