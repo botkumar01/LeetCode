@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/botkumar01/LeetCode/tree/master/0020-valid-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/botkumar01/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Sliding Window
 |  |
@@ -46,4 +47,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/botkumar01/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
