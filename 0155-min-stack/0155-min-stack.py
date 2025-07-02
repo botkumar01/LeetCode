@@ -1,41 +1,21 @@
-from Queue import Queue
 class MinStack(object):
 
     def __init__(self):
-        self.q = Queue()
-        # self.mini = 999999999999999999
+       self.stack = []
+
     def push(self, val):
-        """
-        :type val: int
-        :rtype: None
-        """
-        self.q.put(val)
+        self.stack.append(val)
 
     def pop(self):
-        """
-        :rtype: None
-        """
-        self.q.queue.pop()
+        if self.stack:
+           self.stack.pop()
 
     def top(self):
-        """
-        :rtype: int
-        """
-        if self.q.qsize()==0:
-            return None
-        else:
-            return self.q.queue[-1]
+        if not self.stack:
+           return None
+        return self.stack[-1]
 
     def getMin(self):
-        """
-        :rtype: int
-        """
-        # self.mini = 999999999999999999
-        return min(list(self.q.queue))
-
-# Your MinStack object will be instantiated and called as such:
-# obj = MinStack()
-# obj.push(val)
-# obj.pop()
-# param_3 = obj.top()
-# param_4 = obj.getMin()
+        if not self.stack:
+            return None
+        return min(self.stack)
