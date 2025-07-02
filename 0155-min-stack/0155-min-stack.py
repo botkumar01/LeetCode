@@ -30,11 +30,8 @@ class MinStack(object):
         """
         :rtype: int
         """
-        self.mini = 999999999999999999
-
-        for i in (list(self.q.queue)):
-            self.mini = min(self.mini,i)
-        return self.mini
+        # self.mini = 999999999999999999
+        return min(list(self.q.queue))
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
