@@ -9,12 +9,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
+| [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/botkumar01/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## String
 |  |
@@ -52,8 +54,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/botkumar01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/botkumar01/LeetCode/tree/master/0155-min-stack) |
+| [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/botkumar01/LeetCode/tree/master/0155-min-stack) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
