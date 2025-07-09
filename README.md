@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/botkumar01/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2227-sum-of-subarray-ranges](https://github.com/botkumar01/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/botkumar01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/botkumar01/LeetCode/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
+| [2227-sum-of-subarray-ranges](https://github.com/botkumar01/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Design
 |  |
 | ------- |
@@ -63,4 +65,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
+| [2227-sum-of-subarray-ranges](https://github.com/botkumar01/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
