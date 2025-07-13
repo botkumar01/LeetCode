@@ -3,6 +3,7 @@ class Solution(object):
     
         ans = []
         st = []
+        point = 0
         for i in range(len(nums)):
             while st:
                 if st[-1] <= nums[len(nums)-1-i]:
@@ -11,7 +12,8 @@ class Solution(object):
                     break
             if len(st) == 0:
                 ch = False
-                for k in range(len(nums)-i):
+                for k in range(point,len(nums)-i):
+                    point = k
                     if nums[k] > nums[len(nums)-1-i]:
                         ans.append(nums[k])
                         st.append(nums[k])
