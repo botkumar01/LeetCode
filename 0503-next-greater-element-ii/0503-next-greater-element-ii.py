@@ -3,19 +3,19 @@ class Solution(object):
     
         ans = []
         st = []
-        for i in nums[::-1]:
+        for i in range(len(nums)):
             while st:
-                if st[-1] <= i:
+                if st[-1] <= nums[len(nums)-1-i]:
                     st.pop()
                 else:
                     break
             if len(st) == 0:
                 ch = False
-                for k in nums:
-                    if k > i:
+                for k in nums[:len(nums)-i]:
+                    if k > nums[len(nums)-1-i]:
                         ans.append(k)
                         st.append(k)
-                        st.append(i)
+                        st.append(nums[len(nums)-1-i])
                         ch = True
                         break
                 if ch == False:
@@ -24,7 +24,6 @@ class Solution(object):
 
             else:
                 ans.append(st[-1])
-            
-            st.append(i)
-        ans = ans[::-1]
-        return ans
+            st.append(nums[len(nums)-1-i])
+        
+        return ans[::-1]
