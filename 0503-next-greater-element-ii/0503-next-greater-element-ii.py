@@ -11,10 +11,10 @@ class Solution(object):
                     break
             if len(st) == 0:
                 ch = False
-                for k in nums[:len(nums)-i]:
-                    if k > nums[len(nums)-1-i]:
-                        ans.append(k)
-                        st.append(k)
+                for k in range(len(nums)-i):
+                    if nums[k] > nums[len(nums)-1-i]:
+                        ans.append(nums[k])
+                        st.append(nums[k])
                         st.append(nums[len(nums)-1-i])
                         ch = True
                         break
