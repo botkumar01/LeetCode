@@ -15,13 +15,11 @@ class Solution(object):
                     if nums[k] > nums[len(nums)-1-i]:
                         ans.append(nums[k])
                         st.append(nums[k])
-                        st.append(nums[len(nums)-1-i])
+                        # st.append(nums[len(nums)-1-i])
                         ch = True
                         break
                 if ch == False:
                     ans.append(-1)
-                    
-
             else:
                 ans.append(st[-1])
             st.append(nums[len(nums)-1-i])
