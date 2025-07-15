@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -37,11 +38,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Two Pointers
 |  |
 | ------- |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -55,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/botkumar01/LeetCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/botkumar01/LeetCode/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -66,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [2227-sum-of-subarray-ranges](https://github.com/botkumar01/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
