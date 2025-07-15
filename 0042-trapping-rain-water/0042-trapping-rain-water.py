@@ -14,7 +14,7 @@ class Solution(object):
                     continue
                 else:
                     ans+=A
-            mini = min(nums[l],nums[r])
+            # mini = min(nums[l],nums[r])
             while nums[r] <= nums [l] and l <r:
                 mini = max(mini,nums[r])
                 point = r-1
