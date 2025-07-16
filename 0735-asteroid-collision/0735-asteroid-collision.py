@@ -16,8 +16,11 @@ class Solution(object):
                 print st
                 a-=1
             else:
-                while len(st) != 0 and nums[a] >=0 and a>=0:
-                    if nums[a] > -(st[-1]):
+                while len(st) != 0 and a>=0:
+                    if nums[a] <0:
+                        st.append(nums[a])
+                        a-=1
+                    elif nums[a] > -(st[-1]):
                         st.pop()
                     elif nums[a] == -(st[-1]):
                         a-=1
