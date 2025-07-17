@@ -14,17 +14,18 @@ class Solution(object):
                 
                 st.pop()
                 k-=1
-                
+            if st ==[] and i =="0":
+                continue   
             st.append(i)
-        while k!=0:
+        while st and k!=0 :
             st.pop()
             k-=1
+        # if st ==[]:
+        #     return "0"
+        # else:
+        #     st = st[::-1]
+        #     while st and st[-1] =="0":
+        #         st.pop()
         if st ==[]:
             return "0"
-        else:
-            st = st[::-1]
-            while st and st[-1] =="0":
-                st.pop()
-        if st ==[]:
-            return "0"
-        return (''.join(st))[::-1]
+        return (''.join(st))
