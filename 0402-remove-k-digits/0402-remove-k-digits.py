@@ -5,6 +5,8 @@ class Solution(object):
         :type k: int
         :rtype: str
         """
+        if k == len(num):
+            return "0"
         st = []
         for i in num:
             while st and st[-1] > i and k != 0:
