@@ -1,3 +1,4 @@
+from collections import deque
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
@@ -6,7 +7,7 @@ class Solution(object):
         :rtype: List[int]
         """
         ans = []
-        st = []
+        st = deque()
         for i in range(len(nums)):
             if i >= k-1:
                 while st and nums[st[-1]] <nums[i]:
@@ -14,7 +15,7 @@ class Solution(object):
                 else:
                     st.append(i)
                 while i - st[0] >= k:
-                    st = st[1:]
+                    st.popleft()
                 ans.append(nums[st[0]])
             else:
                 while st and nums[st[-1]] < nums[i]:
