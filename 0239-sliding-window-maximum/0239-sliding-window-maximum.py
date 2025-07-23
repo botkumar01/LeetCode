@@ -9,16 +9,12 @@ class Solution(object):
         ans = []
         st = deque()
         for i in range(len(nums)):
+            while st and i - st[0] >= k:
+                st.popleft()
+            while st and nums[st[-1]] <nums[i]:
+                st.pop()
+            st.append(i)
             if i >= k-1:
-                while st and nums[st[-1]] <nums[i]:
-                    st.pop()
-                else:
-                    st.append(i)
-                while i - st[0] >= k:
-                    st.popleft()
                 ans.append(nums[st[0]])
-            else:
-                while st and nums[st[-1]] < nums[i]:
-                    st.pop()
-                st.append(i)
+            
         return ans
