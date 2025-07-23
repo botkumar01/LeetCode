@@ -14,8 +14,7 @@ class StockSpanner(object):
             sums += self.st[-1][0]
             self.st.pop()
         self.st.append([sums, price])
-        self.ans.append(self.st[-1][0])
-        return self.ans[-1]
+        return sums
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
 # param_1 = obj.next(price)
