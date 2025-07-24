@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
+| [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/botkumar01/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## String
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/botkumar01/LeetCode/tree/master/0155-min-stack) |
 | [0937-online-stock-span](https://github.com/botkumar01/LeetCode/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
@@ -105,4 +107,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/botkumar01/LeetCode/tree/master/0937-online-stock-span) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
