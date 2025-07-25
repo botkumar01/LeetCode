@@ -24,8 +24,6 @@ class Solution(object):
             ans.append(1)
         end=len(r)-1
         k = len(ans)-1
-        print ans
-        
         while k > 0:
             if r[end] < r[end - 1]:
                 if ans[k - 1] <= ans[k]:
@@ -34,5 +32,4 @@ class Solution(object):
             anss += ans[k]
             k-=1
             end-=1
-        print ans
         return anss
