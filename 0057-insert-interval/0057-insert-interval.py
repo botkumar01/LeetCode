@@ -42,7 +42,7 @@ class Solution(object):
             ans.append(arr)
             for i in range(pick,len(inter)):
                 ans.append(inter[i])
-        ans = []
+        
         arr=[]
         inter = []
         newin=[]
