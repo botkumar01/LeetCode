@@ -7,8 +7,15 @@ class Solution(object):
         """
         ans = []
         arr=[]
+        l=-1
         if inter == []:
             return [newin]
+        elif inter[-1][1] < newin[0]:
+            inter.append(newin)
+            return inter
+        if inter[-1][1]<=newin[1]:
+            l = newin[1]
+        
         for i in range(len(inter)):
             if inter[i][1] >= newin[0]:
                 pick = i
@@ -18,26 +25,22 @@ class Solution(object):
                     arr = [inter[i][0]]
                 break
             else:
-                print ans
                 ans.append(inter[i])
-        if len(arr)==0:
-            inter.append(newin)
-            return inter
-        for i in range(pick,len(inter)):
-            if inter[i][1] >= newin[1]:
-                if inter[i][0] <= newin[1]:
-                    pick = i+1
-                    arr.append(inter[i][1])
-                else:
-                    pick = i
-                    arr.append(newin[1])
-                break
-        if len(arr)==1:
-            arr.append(newin[1])
+        if l>-1:
+            arr.append(l)
             ans.append(arr)
             return ans
-        ans.append(arr)
-        for i in range(pick,len(inter)):
-            ans.append(inter[i])
-        
+        else:
+            for i in range(pick,len(inter)):
+                if inter[i][1] >= newin[1]:
+                    if inter[i][0] <= newin[1]:
+                        pick = i+1
+                        arr.append(inter[i][1])
+                    else:
+                        pick = i
+                        arr.append(newin[1])
+                    break
+            ans.append(arr)
+            for i in range(pick,len(inter)):
+                ans.append(inter[i])
         return ans
