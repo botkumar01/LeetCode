@@ -15,7 +15,6 @@ class Solution(object):
             return inter
         if inter[-1][1]<=newin[1]:
             l = newin[1]
-        
         for i in range(len(inter)):
             if inter[i][1] >= newin[0]:
                 pick = i
@@ -43,4 +42,8 @@ class Solution(object):
             ans.append(arr)
             for i in range(pick,len(inter)):
                 ans.append(inter[i])
+        ans = []
+        arr=[]
+        inter = []
+        newin=[]
         return ans
