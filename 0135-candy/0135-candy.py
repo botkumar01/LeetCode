@@ -4,40 +4,35 @@ class Solution(object):
         :type ratings: List[int]
         :rtype: int
         """
-        ans = []
+        ans = [1]
         last = 1
         prev = r[0]
         anss = 0
-        for i in range(len(r)):
-            if i != 0 and r[i] > prev:
+        n = len(r)
+        for i in range(n-1):
+            if r[i] > prev:
                 ans.append(ans[-1] + 1 )
-                # last = last+1
-                # anss+=last
-            elif i !=len(r)-1 and r[i] > r[i+1]:
+            elif r[i] > r[i+1]:
                 ans.append(2)
-                # last = 2
-                # anss += 2
             else:
                 ans.append(1)
-                # last = 1
-                # anss += 1
             prev = r[i]
-       
-        # if r[len(r)-1] >prev:
-        #     ans.append(ans[-1] + 1 )
-        # else:
-        #     ans.append(1)
-        end=len(r)-1
         
-        for i in range(1,len(r)):
-            if r[end] < r[end-1]:
-                if ans[end] >= ans[end-1]:
-                    # anss -= ans[end-1]
-                    ans[end-1] = ans[end] +1
+        if r[n-1] > prev:
+            ans.append(ans[-1] + 1 )
+        else:
+            ans.append(1)
+        end=len(r)-1
+        k = len(ans)-1
+        print ans
+        
+        while k > 0:
+            if r[end] < r[end - 1]:
+                if ans[k - 1] <= ans[k]:
+                    ans[k - 1] = ans[k] + 1
 
-                    # anss += ans[end-1]
-            anss += ans[end]
+            anss += ans[k]
+            k-=1
             end-=1
-        anss += ans[0]
-        # return sum(ans)
+        print ans
         return anss
