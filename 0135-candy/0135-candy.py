@@ -34,7 +34,10 @@ class Solution(object):
                 if ans[end] >= ans[end-1]:
                     # anss -= ans[end-1]
                     ans[end-1] = ans[end] +1
+
                     # anss += ans[end-1]
+            anss += ans[end]
             end-=1
-        return sum(ans)
+        anss += ans[0]
+        # return sum(ans)
         return anss
