@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0057-insert-interval](https://github.com/botkumar01/LeetCode/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0135-candy](https://github.com/botkumar01/LeetCode/tree/master/0135-candy) |
 | [0239-sliding-window-maximum](https://github.com/botkumar01/LeetCode/tree/master/0239-sliding-window-maximum) |
