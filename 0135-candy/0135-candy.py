@@ -37,4 +37,5 @@ class Solution(object):
                     anss += ans[end-1]
             end-=1
         print ans
+        return sum(ans)
         return anss
