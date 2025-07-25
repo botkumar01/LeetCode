@@ -32,4 +32,5 @@ class Solution(object):
             anss += ans[k]
             k-=1
             end-=1
+        ans = []
         return anss
