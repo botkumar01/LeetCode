@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0057-insert-interval](https://github.com/botkumar01/LeetCode/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0455-assign-cookies](https://github.com/botkumar01/LeetCode/tree/master/0455-assign-cookies) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
