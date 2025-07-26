@@ -4,5 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums[:] = sorted(set(nums)) 
-        return len(nums)
+        if not nums:
+            return nums
+        ind = 1
+        for i in range(1,len(nums)):
+            if nums[i] != nums[ind-1]:
+                nums[ind]=nums[i]
+                ind+=1
+        return ind
