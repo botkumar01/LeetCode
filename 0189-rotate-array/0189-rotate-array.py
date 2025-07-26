@@ -16,3 +16,4 @@ class Solution(object):
             nums[k] = m[p]
             k+=1
             p+=1
+        m=0
