@@ -4,16 +4,13 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        row = []
-        cl = []
+        row = set()
+        cl = set()
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
                 if matrix[i][j] == 0:
-                    row.append(i)
-                    cl.append(j)
-        row = set(row)      
-        cl = set(cl)
-        print(cl,row)
+                    row.add(i)
+                    cl.add(j)
         for i in row:
             for j in range(len(matrix[0])):
                 matrix[i][j]=0 
