@@ -13,7 +13,7 @@ class Solution(object):
             r = len(nums)-1
             if nums[i] > 0 :
                 break
-            while l<r:
+            while l<r and nums[r] >=0:
                 t =nums[i] + nums[l]+nums[r]
                 # if nums[i]>0:
                 #     continue
