@@ -26,19 +26,21 @@ class Solution(object):
         ans = []
         p = 0
         l=0
-        while p < len(arr):
+        while p < len(arr)-1:
             add = []
             add.append(arr[p][0])
             m=arr[p][1]
-            if p==len(arr)-1:
-                ans.append(arr[p])
-                break
+            # if p==len(arr)-1:
+            #     ans.append(arr[p])
+            #     break
             while p<len(arr)-1 and m>= arr[p+1][0]:
                 m  = max(m,arr[p+1][1])
                 p+=1
             add.append(m)
             ans.append(add)
             p+=1
+        if p==len(arr)-1:
+            ans.append(arr[p])
         return ans
         # ans = [[arr[0]]]
         # p=0
