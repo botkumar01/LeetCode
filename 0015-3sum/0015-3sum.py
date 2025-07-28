@@ -12,7 +12,7 @@ class Solution(object):
             r = len(nums)-1
             if nums[i] > 0 :
                 break
-            while l<r and nums[r] >=0:
+            while l<r:
                 t =nums[i] + nums[l]+nums[r]
                 if t ==0:
                     ans.add((nums[i],nums[l],nums[r]))
