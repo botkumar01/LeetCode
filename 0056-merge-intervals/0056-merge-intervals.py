@@ -4,24 +4,24 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: List[List[int]]
         """
-        # cnt = 0
-        # if len(arr)<=1:
-        #     return arr
-        # ans = []
-        # arr.sort()
-        # # print(arr)
-        # a = arr[0][0]
-        # b = arr[0][1]
-        # for i in range(1,len(arr)):
-        #     if b >= arr[i][0]:
-        #         b = max(b,arr[i][1])
-        #     else:
-        #         # cnt +=1
-        #         ans.append([a,b])
-        #         a = arr[i][0]
-        #         b = max(arr[i][1],arr[i-1][1])
-        # ans.append([a,b])
-        # return(ans)
+        cnt = 0
+        if len(arr)<=1:
+            return arr
+        ans = []
+        arr.sort()
+        # print(arr)
+        a = arr[0][0]
+        b = arr[0][1]
+        for i in range(1,len(arr)):
+            if b >= arr[i][0]:
+                b = max(b,arr[i][1])
+            else:
+                # cnt +=1
+                ans.append([a,b])
+                a = arr[i][0]
+                b = arr[i][1]
+        ans.append([a,b])
+        return(ans)
         arr.sort()
         ans = []
         p = 0
