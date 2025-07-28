@@ -10,8 +10,8 @@ class Solution(object):
         for i in range(len(nums)-1):
             l=i+1
             r = len(nums)-1
-            if nums[i] > 0 :
-                break
+            # if nums[i] > 0 :
+            #     break
             while l<r:
                 t =nums[i] + nums[l]+nums[r]
                 if t ==0:
