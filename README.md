@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/botkumar01/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/botkumar01/LeetCode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/botkumar01/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0088-merge-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/botkumar01/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0135-candy](https://github.com/botkumar01/LeetCode/tree/master/0135-candy) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0088-merge-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/botkumar01/LeetCode/tree/master/0189-rotate-array) |
 | [0455-assign-cookies](https://github.com/botkumar01/LeetCode/tree/master/0455-assign-cookies) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/botkumar01/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/botkumar01/LeetCode/tree/master/0056-merge-intervals) |
+| [0088-merge-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
 | [0455-assign-cookies](https://github.com/botkumar01/LeetCode/tree/master/0455-assign-cookies) |
 ## Stack
