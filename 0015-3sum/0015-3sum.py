@@ -27,4 +27,6 @@ class Solution(object):
         k = []
         for i in ans:
             k.append(list(i))
+        ans = 0
+        nums =0 
         return k
