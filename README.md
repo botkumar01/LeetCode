@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/botkumar01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0135-candy](https://github.com/botkumar01/LeetCode/tree/master/0135-candy) |
 | [0189-rotate-array](https://github.com/botkumar01/LeetCode/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/botkumar01/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0455-assign-cookies](https://github.com/botkumar01/LeetCode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/botkumar01/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
+| [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
 | [0496-next-greater-element-i](https://github.com/botkumar01/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/botkumar01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/botkumar01/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
+| [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
 | [0455-assign-cookies](https://github.com/botkumar01/LeetCode/tree/master/0455-assign-cookies) |
 ## Stack
 |  |
@@ -144,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/botkumar01/LeetCode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/botkumar01/LeetCode/tree/master/0073-set-matrix-zeroes) |
+## Counting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
