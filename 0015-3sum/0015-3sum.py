@@ -6,8 +6,7 @@ class Solution(object):
         """
         nums.sort()
         r = len(nums)-1
-        ans = []
-        h = {}
+        ans = set()
         for i in range(len(nums)-1):
             l=i+1
             r = len(nums)-1
@@ -15,12 +14,8 @@ class Solution(object):
                 break
             while l<r and nums[r] >=0:
                 t =nums[i] + nums[l]+nums[r]
-                # if nums[i]>0:
-                #     continue
                 if t ==0:
-                    # if ans[-1] != [nums[i],nums[l],nums[r]]:
-                    if [nums[i],nums[l],nums[r]] not in ans:
-                        ans.append([nums[i],nums[l],nums[r]])
+                    ans.add((nums[i],nums[l],nums[r]))
                     l+=1
                     r-=1
                 elif t < 0:
@@ -29,4 +24,7 @@ class Solution(object):
                     r-=1
                 # h[[nums[i],nums[l],nums[r]]] = 0
         # ans = list(ans)
-        return ans
+        k = []
+        for i in ans:
+            k.append(list(i))
+        return k
