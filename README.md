@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/botkumar01/LeetCode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/botkumar01/LeetCode/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/botkumar01/LeetCode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/botkumar01/LeetCode/tree/master/0048-rotate-image) |
@@ -170,5 +171,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/botkumar01/LeetCode/tree/master/0035-search-insert-position) |
 | [0792-binary-search](https://github.com/botkumar01/LeetCode/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
