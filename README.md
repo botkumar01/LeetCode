@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/botkumar01/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/botkumar01/LeetCode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/botkumar01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0041-first-missing-positive](https://github.com/botkumar01/LeetCode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/botkumar01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/botkumar01/LeetCode/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/botkumar01/LeetCode/tree/master/0056-merge-intervals) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/botkumar01/LeetCode/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/botkumar01/LeetCode/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/botkumar01/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/botkumar01/LeetCode/tree/master/0146-lru-cache) |
 | [0229-majority-element-ii](https://github.com/botkumar01/LeetCode/tree/master/0229-majority-element-ii) |
