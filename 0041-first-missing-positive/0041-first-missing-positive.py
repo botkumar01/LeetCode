@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums = list(sorted(set(nums)))
+        nums = (sorted(set(nums)))
         l=0
         while l!=len(nums) and nums[l]<=0:
             l+=1
