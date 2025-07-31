@@ -12,11 +12,10 @@ class Solution(object):
             r=len(nums)-1
             while l< r:
                 total = nums[i] + nums[l]+ nums[r]
-                if abs(total-target) < ans:
-                    ans = abs(total-target)
-                    
+                diff =abs(total-target)
+                if diff < ans:
+                    ans = diff
                     k = nums[i] + nums[l]+ nums[r]
-                    print(k)
                 if total > target:
                     r-=1
                 else:
