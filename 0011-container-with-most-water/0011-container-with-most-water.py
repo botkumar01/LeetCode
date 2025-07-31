@@ -7,12 +7,13 @@ class Solution(object):
         l=0
         r = len(arr)-1
         ans = 0
+        mini=0
         while l<r:
             mini = min(arr[l],arr[r])
             maxi = max(arr[l],arr[r])
             ans = max(ans,(mini*(r-l)))
-            if mini == arr[l]:
+            while l<r and mini >= arr[l]:
                 l+=1
-            else:
+            while l<r and mini >= arr[r]:
                 r-=1
         return ans
